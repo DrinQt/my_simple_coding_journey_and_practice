@@ -8,3 +8,8 @@ num2 = float(input("Enter the second number: "))
 #use if statement to check if the 2 values are equal
 #use print() function to print the values are equal
 
+if num1 == num2:
+    print("Equal")
+else:
+    print("Not Equal")
+
