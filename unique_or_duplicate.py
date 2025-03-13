@@ -10,6 +10,14 @@ while True:
 
     if user_input.lower() == 'exit':
         break
-#convert input to integer
-#check if number is unique or duplicate
-#print the result
+try:
+        # Convert input to an integer
+        number = int(user_input)
+    except ValueError:
+        print("Please enter a valid number.")
+        continue
+    if number in entered_numbers: #check if number is unique or duplicate
+        print("Duplicate")
+    else:
+        print("Unique")
+        entered_numbers.add(number)
