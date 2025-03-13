@@ -14,4 +14,8 @@ while True:
     numbers.append(int(number))
 
 #sort the list in ascending order
+numbers.sort()
+
 #print the number from lowest to highest
+print("The lowest number is: ", numbers)
+
