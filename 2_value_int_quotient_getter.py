@@ -8,6 +8,7 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 #divide the first number by the second number using '//' operator
-
+quotient_of_numbers = num1 // num2
 
 #print the quotient
+print("The quotient of the two numbers is: ", quotient_of_numbers)
