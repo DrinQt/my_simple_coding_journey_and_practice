@@ -5,7 +5,8 @@ print("This program prints the result when you subtract each of the next nine va
 numbers = [int(input(f"Enter number {i + 1}: ")) for i in range(10)]
 
 #set the first number to a variable 0
+first_number = numbers[0]
 
-#use a for loop to iterate through the remaining numbers
-
-#subtract the first number from the remaining numbers
+#use a for loop to iterate through the remaining numbers and subtract the first number from the remaining numbers
+for num in numbers[1:]:
+    print(first_number - num)
