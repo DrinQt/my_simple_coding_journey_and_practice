@@ -8,5 +8,7 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
 #compute the difference between the two values using '-' operator
+difference_of_numbers = num1 - num2
 
 #print the difference
+print("The difference of the two numbers is:", difference_of_numbers)
