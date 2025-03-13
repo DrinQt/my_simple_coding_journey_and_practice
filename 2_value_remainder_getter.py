@@ -8,6 +8,7 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 #calculate the remainder of the division using the modulus operator
-
+remainder = num1 % num2
 
 #print the remainder
+print("The remainder of the first number when divided by the second number is:", remainder)
