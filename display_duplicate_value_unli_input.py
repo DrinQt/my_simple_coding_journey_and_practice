@@ -18,4 +18,9 @@ while True:
         print("Invalid input. Please enter a valid number.")
 
 #find value with the most duplicates and print it
+if number_count:
+    most_duplicate_number = max(number_count, key=number_count.get)
+    print(f"The number with the most duplicates is: {most_duplicate_number} (appeared {number_count[most_duplicate_number]} times)")
+else:
+    print("No valid numbers were entered.")
 
