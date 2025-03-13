@@ -1,11 +1,28 @@
-#print the program purpose
+# Print the program purpose
 print("This program will display the highest number you entered.")
 
-#set variable to store the highest number
+# Set variable to store the highest number
 highest_number = None
 
-#prompt the user to enter a number
+# Prompt the user to enter a number
+while True:
+    user_input = input("Enter a number (or type 'exit' to quit): ")
 
-#update the highest number
+    if user_input.lower() == 'exit':
+        break
 
-#display the highest number if valid
+    try:
+        number = float(user_input)  # Convert input to a float
+
+        # Update the highest number
+        if highest_number is None or number > highest_number:
+            highest_number = number
+
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
+
+# Display the highest number if valid
+if highest_number is not None:
+    print("The highest number entered is:", highest_number)
+else:
+    print("No valid numbers were entered.")
