@@ -8,3 +8,4 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
 #print the lower value between the two numbers using 'min' function
+print("The smaller number is:", min(num1, num2))
