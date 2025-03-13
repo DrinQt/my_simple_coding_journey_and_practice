@@ -18,5 +18,9 @@ while True:
             lowest_number = number
     except ValueError:
         print("Invalid input. Please enter a valid number.")
-#update the lowest number
+
 #display the lowest number if valid
+if lowest_number is not None:
+    print("The lowest number entered is:", lowest_number)
+else:
+    print("No valid numbers were entered.")
