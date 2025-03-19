@@ -5,6 +5,8 @@ print("This program converts a name to snake case")
 name = input("Enter a name: ")
 
 #convert the name to snake case
+snake_case = '_'.join(word.lower() for word in name.split())
 
 #display the name in snake case
+print(snake_case)
 
