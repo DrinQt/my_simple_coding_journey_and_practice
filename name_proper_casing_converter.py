@@ -5,3 +5,4 @@ print("This program converts a name to proper casing")
 name = input("Enter a name: ")
 
 #convert and print the name to proper casing
+print(name.title())
