@@ -5,3 +5,4 @@ print("This program converts a name to lowercase.")
 name = input("Enter a name: ")
 
 #convert and print the name to lowercase
+print(name.lower())
