@@ -5,4 +5,5 @@ def custom_rstrip(s):
     return s
 
 #print result
+print(custom_rstrip("Wassup Bro!    "))
 
