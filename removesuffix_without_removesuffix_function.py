@@ -5,3 +5,4 @@ def custom_removesuffix(s, suffix):
     return s
 
 #Print the string without the suffix
+print(custom_removesuffix("WassupBro", "Bro"))
