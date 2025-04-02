@@ -3,3 +3,5 @@ def custom_zfill(s, width):
     return '0' * (width - len(s)) + s if width > len(s) else s
 
 #print the result
+print(custom_zfill("69", 5))
+
