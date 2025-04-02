@@ -8,3 +8,4 @@ def custom_count(s, sub):
     return count
 
 #Print results without using the count() function
+print("The number of times 'a' occurs in 'banana' is:", custom_count("banana", "a"))
