@@ -5,4 +5,6 @@ def custom_index(s, sub):
         if s[i:i + sub_len] == sub:
             return i
     raise ValueError(f"'{sub}' is not in string")
+
 #print results
+print(custom_index("Hello World", "World"))
