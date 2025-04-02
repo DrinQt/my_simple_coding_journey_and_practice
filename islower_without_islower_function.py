@@ -6,3 +6,5 @@ def custom_islower(s):
     return len(s) > 0
 
 #print result
+print(custom_islower("hello"))  # True
+print(custom_islower("Hello"))  # False
