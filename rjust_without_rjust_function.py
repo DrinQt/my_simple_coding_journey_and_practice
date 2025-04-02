@@ -2,5 +2,6 @@
 def custom_rjust(s, width):
     return ' ' * (width - len(s)) + s if width > len(s) else s
 
-
 #print right justified string
+print(custom_rjust("Hello", 10)) # "     Hello"
+
