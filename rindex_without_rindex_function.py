@@ -7,3 +7,5 @@ def custom_rindex(s, sub):
     raise ValueError(f"'{sub}' is not in string")
 
 #print result
+print(custom_rindex("WassupBro", "Bro"))
+
