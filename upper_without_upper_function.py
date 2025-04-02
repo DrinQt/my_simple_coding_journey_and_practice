@@ -9,3 +9,4 @@ def custom_upper(s):
     return result
 
 #print result
+print(custom_upper("Okay na to."))
